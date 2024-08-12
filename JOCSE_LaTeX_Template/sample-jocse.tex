@@ -1,0 +1,102 @@
+\documentclass[jocse]{jocseart}
+
+\usepackage{booktabs} % For formal tables
+
+% Copyright
+\setcopyright{jocsecopyright}
+
+% DOI
+\jocseDOI{10.22369/issn.2153-4136/x/x/x }
+
+% the following commands remove page numbers and headers that JOCSE formatting adds 
+% in preparation for publication DO NOT REMOVE THESE
+\pagestyle{plain} 
+\pagenumbering{gobble}
+
+\begin{document}
+% Title info
+\title{HPC Carpentry---A scalable, peer-reviewed training program to democratize HPC access}
+%\titlenote{This format mimics the ACM SIG Proceedings format.}
+
+% Author(s) info
+% (We can reshuffle this but I'd suggest whoever presents as first author with the disclaimer)
+\author{Andrew Reid}
+\authornote{Presenter, all authors contributed equally to this submission.}
+\email{andrew.reid@nist.gov}
+\orcid{0000-0002-1546-5640}
+\affiliation{%
+  \institution{National Institute of Standards and Technology}
+  \streetaddress{100 Bureau Drive}
+  \city{Gaithersburg}
+  \state{Maryland}
+  \postcode{20899-8555}
+}
+
+\author{Alan \'O Cais}
+\email{alan.ocais@cecam.org}
+\orcid{0000-0002-8254-8752}
+\affiliation{%
+  \institution{University of Barcelona}
+  \city{Barcelona}
+  \country{Spain}
+}
+
+\author{Trevor Keller}
+\email{trevor.keller@nist.gov}
+\orcid{0000-0002-2920-8302}
+\affiliation{%
+  \institution{National Institute of Standards and Technology}
+  \streetaddress{100 Bureau Drive}
+  \city{Gaithersburg}
+  \state{Maryland}
+  \postcode{20899-8555}
+}
+
+\author{Wirawan Purwanto}
+\email{wpurwant@odu.edu}
+\orcid{0000-0002-2124-4552}
+\affiliation{%
+  \institution{Old Dominion University}
+  \streetaddress{4700 Elkhorn Ave}
+  \city{Norfolk}
+  \state{Virginia}
+  \postcode{23529}
+}
+
+\author{Annajiat Alim Rasel}
+\email{annajiat@gmail.com}
+\orcid{0000-0003-0198-3734}
+\affiliation{%
+  \institution{Brac University}
+  \streetaddress{66, Mohakhali}
+  \city{Dhaka}
+  \state{Bangladesh}
+  \postcode{1212}
+}
+
+
+% The default list of authors is too long for headers.
+%\renewcommand{\shortauthors}{First Author et al.}
+
+% Abstract 
+\begin{abstract}
+The HPC Carpentry lesson program is a highly interactive, hands-on approach to getting users up to speed on HPC cluster systems. It is motivated by the increasing availability of cluster resources to a wide range of user groups, many of whom come from communities that have not traditionally used HPC systems.
+% AR I am thinking of bio users here, principally.
+We adopt the Carpentries approach to pedagogy, which consists of a workshop setting where learners type along with instructors while working through the instructional steps, building up ``muscle memory'' of the tasks, further reinforced by challenge exercises at critical points within the lesson. 
+This paper reviews the development of the HPC Carpentry Lesson Program as it becomes the first entrant into phase 2 of The Carpentries Lesson Program Incubator. This incubator is the pathway for HPC Carpentry to become an official lesson program of The Carpentries.
+\end{abstract}
+
+% Keywords
+\keywords{HPC, training, open source, lesson}
+
+% Generate the title
+\maketitle
+
+% Input the body of the paper by providing the file name. For example,
+% if the file name is body.tex, then input{body}
+\input{samplebody}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-bibliography}
+
+\end{document}
