@@ -1,0 +1,497 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output.
+%%%                        It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+@misc{bofSC2017,
+    author =       {Andrew Turner and 
+                    Christina Koch and
+                    Tracy Teal and 
+                    Robert Freeman Jr and
+                    Chris Bording and
+                    Martin Callaghan},
+    title =        {HPC Carpentry - Practical, Hands-On HPC Training},
+    howpublished = {\url{https://sc17.supercomputing.org/index.html\%3Fpost_type=page\&p=5407\&id=bof125\&sess=sess359.html}},
+    accessed =     {March 2019},
+    YEAR = {2017},
+    note =         {BoF session at SC17}
+}
+
+@misc{bofSC2021,
+    author =       {Andrew Reid and 
+                    Trevor Keller and
+                    Alan \'O Cais and
+                    Annajiat Alim Rasel},
+    title =        {HPC Carpentry: Introducing New Users to HPC},
+    howpublished = {\url{https://sc21.supercomputing.org/app/uploads/2021/11/SC21-Final-Program-211114.pdf}},
+    accessed =     {August 2023},
+    YEAR = {2021},
+    note =         {BoF session at SC21}
+}
+
+@misc{peter_steinbach_2021_4525377,
+  author       = {Peter Steinbach},
+  title        = {psteinb/hpc-parallel-novice: fork to work},
+  month        = feb,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {0.1},
+  doi          = {10.5281/zenodo.4525377},
+  url          = {https://doi.org/10.5281/zenodo.4525377}
+}
+
+@article{jocse-11-1-4,
+  author={Alan \'{O} Cais and Peter Steinbach},
+  title={Expanding user communities with HPC Carpentry},
+  journal={The Journal of Computational Science Education},
+  year=2020,
+  month=jan,
+  volume=11,
+  issue=1,
+  pages={21--25},
+  doi={https://doi.org/10.22369/issn.2153-4136/11/1/4}
+}
+
+
+
+
+@misc{cconBreakout,
+    author =       {Alan \'O Cais and
+                    Daniel Smith},
+    title =        {Breakout 8: HPC Carpentry},
+    howpublished = {\url{https://github.com/carpentries/carpentrycon/tree/master/CarpentryCon-2018/Sessions/2018-05-31/05-Breakout-8-HPC-Carpentry}},
+    accessed =     {March 2019},
+    YEAR = {2018},
+    note =         {Breakout session at CarpentryCon 2018}
+}
+
+@misc{cconWorkshop,
+    author =       {Christina Koch and
+                    Peter Steinbach},
+    title =        {Workshop 5: HPC Carpentry},
+    howpublished = {\url{https://github.com/carpentries/carpentrycon/tree/master/CarpentryCon-2018/Sessions/2018-06-01/05-Workshop-5-HPC-Carpentry}},
+    accessed =     {March 2019},
+    YEAR = {2018},
+    note =         {Workshop at CarpentryCon 2018}
+}
+
+
+
+@misc{aldazabal_mensa_2016_57544,
+  author       = {Aldazabal Mensa, Inigo and
+                  Alexander, Harriet and
+                  Allen, James and
+                  Alsheikh-Hussain, Areej and
+                  Baird, Daniel and
+                  Banaszkiewicz, Piotr and
+                  Barmby, Pauline and
+                  Beagrie, Rob and
+                  Bekolay, Trevor and
+                  Belikov, Evgenij and
+                  Bell, Jason and
+                  Blin, Kai and
+                  Blischak, John and
+                  Boardman, Simon and
+                  Boissoneault, Maxime and
+                  Bonnie, Jessica and
+                  Boughton, Andy and
+                  Brase, Ry4an and
+                  Brown, Amy and
+                  Brunson, Dana and
+                  Buske, Orion and
+                  Cabunoc Mayes, Abigail and
+                  Chen, Daniel and
+                  Chung, Kathy and
+                  Devenyi, Gabriel A. and
+                  Dolson, Emily and
+                  Duckles, Jonah and
+                  Emonet, R{\'{e}}mi and
+                  Eyers, David and
+                  Fernandes, Filipe and
+                  Fontenelle, Hugues and
+                  Gacenga, Francis and
+                  Gidden, Matthew and
+                  Gonzalez, Ivan and
+                  Gray, Norman and
+                  Hagh, Varda F. and
+                  Hansen, Michael and
+                  Harstad, Emelie and
+                  Howe, Adina and
+                  Imamoglu, Fatma and
+                  Irving, Damien and
+                  Jackson, Mike and
+                  McTavish, Emily Jane and
+                  Jennings, Michael and
+                  Jones, Dan and
+                  Keener, Alix and
+                  Keipert, Kristopher and
+                  Kelly, Tom and
+                  Kim, Jan T. and
+                  King, W. Trevor and
+                  Koch, Christina and
+                  Konrad, Bernhard and
+                  Lake, Sherry and
+                  Latornell, Doug and
+                  Lijnzaad, Philip and
+                  Ma, Eric and
+                  Madin, Joshua and
+                  Marini, Camille and
+                  Marwaha, Kunal and
+                  Mashchenko, Sergey and
+                  Michonneau, FranÃ§ois and
+                  Middleson, Ryan and
+                  Milhans, Jackie and
+                  Mills, Bill and
+                  Miotto, Amanda and
+                  Mount, Sarah and
+                  Nederbragt, Lex and
+                  Nielsen, Daiva and
+                  O'Leary, Aaron and
+                  Olson, Randy and
+                  Orr, Adam and
+                  Therkildsen, Nina and
+                  Palamartchouk, Kirill and
+                  Perry, Adam and
+                  Pipitone, Jon and
+                  Poisot, Timoth{\'{e}}e and
+                  Pourreza, Hossein and
+                  Povall, Timothy and
+                  Richie-Halford, Adam and
+                  Ritchie, Scott and
+                  Ross, Noam and
+                  Rydbeck, Halfdan and
+                  Sadjadi, Mahdi and
+                  Schloss, Pat and
+                  Seyffert, Bertie and
+                  Shattow, Genevieve and
+                  Silva, Raniere and
+                  Simpkin, Sarah and
+                  Simpson, John and
+                  Smith, Byron and
+                  Soranzo, Nicola and
+                  Srinath, Ashwin and
+                  Standage, Daniel and
+                  Staton, Meg and
+                  Steinbach, Peter and
+                  Stimberg, Marcel and
+                  Telenczuk, Bartosz and
+                  Thoele, Florian and
+                  Timbers, Tiffany and
+                  Turner, Stephen and
+                  van Schyndel, Jay and
+                  van der Walt, Anelda and
+                  Vollmer, David and
+                  von der Linden, Jens and
+                  Walker, Andrew and
+                  Waterfall, Josh and
+                  White, Ethan and
+                  Willing, Carol and
+                  Wilson, Greg and
+                  Winston, Donny and
+                  Young, Lynn and
+                  Zamparo, Lee},
+  title        = {Software Carpentry: The Unix Shell},
+  month        = jun,
+  year         = 2016,
+  doi          = {10.5281/zenodo.57544},
+  url          = {https://doi.org/10.5281/zenodo.57544}
+}
+
+@misc{hpcintro,
+    author =       {HPC Carpentry},
+    title =        {Introduction to High Performance Computing},
+    howpublished = {\url{https://carpentries-incubator.github.io/hpc-intro/}},
+    accessed =     {August 2023},
+    YEAR = {2023},
+    note =         {}
+}
+
+@misc{hpcworkflows,
+    author =       {HPC Carpentry},
+    title =        {HPC Workflow Management with Snakemake},
+    howpublished = {\url{https://carpentries-incubator.github.io/hpc-workflows/}},
+    accessed =     {August 2023},
+    YEAR = {2023},
+    note =         {}
+}
+
+@misc{hpcchapel,
+    author =       {HPC Carpentry},
+    title =        {Introduction to High-Performance Computing in Chapel},
+    howpublished = {\url{https://www.hpc-carpentry.org/hpc-chapel/}},
+    accessed =     {August 2023},
+    YEAR = {2023},
+    note =         {}
+}
+
+@misc{hpccontainers,
+    author =       {Pawsey Supercomputing Centre},
+    title =        {Containers on HPC and Cloud with Singularity},
+    howpublished = {\url{https://pawseysc.github.io/singularity-containers/}},
+    accessed =     {August 2023},
+    YEAR = {2023},
+    note =         {}
+}
+
+@article{Mlder2021,
+  doi = {10.12688/f1000research.29032.2},
+  url = {https://doi.org/10.12688/f1000research.29032.2},
+  year = {2021},
+  month = apr,
+  publisher = {F1000 Research Ltd},
+  volume = {10},
+  pages = {33},
+  author = {Felix M\"{o}lder and Kim Philipp Jablonski and Brice Letcher and Michael B. Hall and Christopher H. Tomkins-Tinch and Vanessa Sochat and Jan Forster and Soohyun Lee and Sven O. Twardziok and Alexander Kanitz and Andreas Wilm and Manuel Holtgrewe and Sven Rahmann and Sven Nahnsen and Johannes K\"{o}ster},
+  title = {Sustainable data analysis with Snakemake},
+  journal = {F1000Research}
+}
+
+@software{felix_antoine_fortin_2023_8096727,
+  author       = {Félix-Antoine Fortin and
+                  etiennedub and
+                  Frédéric Fortier-Chouinard and
+                  Maxime Boissonneault and
+                  Charles Coulombe and
+                  Erik Sundell and
+                  Simon Guilbault and
+                  Adam Huffman and
+                  jboschee and
+                  R. P. Taylor and
+                  Étienne Parent and
+                  Chris Want and
+                  Darren Boss and
+                  Justin Lagüe and
+                  Kenneth Hoste and
+                  Marie-Helene Burle and
+                  Quoding and
+                  Pier-Luc St-Onge},
+  title        = {ComputeCanada/magic\_castle: Magic Castle 12.6.0},
+  month        = jun,
+  year         = 2023,
+  publisher    = {Zenodo},
+  version      = {12.6.0},
+  doi          = {10.5281/zenodo.8096727},
+  url          = {https://doi.org/10.5281/zenodo.8096727}
+}
+
+@misc{carpentries,
+    author =       {The Carpentries},
+    title =        {The Carpentries teaches foundational coding and data science skills to researchers worldwide.},
+    howpublished = {\url{https://carpentries.org/}},
+    accessed =     {August 2023},
+    YEAR = {2023},
+    note =         {}
+}
