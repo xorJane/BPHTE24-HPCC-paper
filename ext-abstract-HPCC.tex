@@ -1,0 +1,143 @@
+\documentclass[jocse]{jocseart}
+
+\usepackage{booktabs} % For formal tables
+
+
+% Copyright
+\setcopyright{jocsecopyright}
+
+% DOI
+\jocseDOI{10.22369/issn.2153-4136/x/x/x }
+
+% the following commands remove page numbers and headers that JOCSE formatting adds 
+% in preparation for publication DO NOT REMOVE THESE
+\pagestyle{plain} 
+\pagenumbering{gobble}
+
+\begin{document}
+% Title info
+\title{T3-CIDERS: Fostering a Community of Practice in CI- and Data-Enabled Cybersecurity Research Through A Train-the-Trainer Program}
+%\titlenote{This format mimics the ACM SIG Proceedings format.}
+
+% Author(s) info
+
+\author{Andrew Reid}
+%\authornote{First Author insisted his name be first.}
+%\orcid{0000-}
+\affiliation{%
+  \institution{US National Institute of Standards and Technology}
+  \streetaddress{}
+  \city{Gaithersburg}
+  \state{Maryland}
+  \postcode{20899}
+}
+\email{andrew.reid@nist.gov}
+
+
+\author{Trevor Keller}
+%\authornote{First Author insisted his name be first.}
+%\orcid{0000-}
+\affiliation{%
+  \institution{US National Institute of Standards and Technology}
+  \streetaddress{}
+  \city{Gaithersburg}
+  \state{Maryland}
+  \postcode{20899}
+}
+\email{trevor.keller@nist.gov}
+
+
+\author{Alan O'Cais}
+%\authornote{First Author insisted his name be first.}
+%\orcid{0000-}
+\affiliation{%
+  \institution{University of Barcelona}
+  \streetaddress{}
+  \city{Barcelona}
+  \state{Spain}
+  \postcode{08007}
+}
+\email{alan.ocais@gmail.com}
+
+
+\author{Annajiat Alim Rasel}
+%\authornote{First Author insisted his name be first.}
+%\orcid{0000-}
+\affiliation{%
+  \institution{BRAC University}
+  \streetaddress{}
+  \city{Dhaka}
+  \state{Bangladesh}
+  \postcode{1212}
+}
+\email{annajiat@bracu.ac.bd}
+
+
+\author{Wirawan Purwanto}
+%\authornote{First Author insisted his name be first.}
+\orcid{0000-0002-2124-4552}
+\affiliation{%
+  \institution{Old Dominion University}
+  \streetaddress{5115 Hampton Blvd}
+  \city{Norfolk}
+  \state{Virginia}
+  \postcode{23529}
+}
+\email{wpurwant@odu.edu}
+
+\author{Jane Herriman}
+\orcid{0000-0003-4769-1403}
+\affiliation{%
+  \institution{Lawrence Livermore National Laboratory}
+  \streetaddress{}
+  \city{Livermore}
+  \state{California}
+  \postcode{94550}
+}
+\email{herriman1@llnl.gov}
+
+\author{Benson Muite}
+%\authornote{First Author insisted his name be first.}
+%\orcid{}
+\affiliation{%
+  \institution{Kichakato Kizito}
+  \streetaddress{}
+  \city{Nairobi}
+  \state{Kenya}
+  \postcode{}
+}
+\email{benson_muite@emailplus.org}
+
+
+
+% The default list of authors is too long for headers.
+\renewcommand{\shortauthors}{Reid et al.}
+
+% Abstract 
+\begin{abstract}
+The HPC Carpentry project aims to develop highly interactive workshop training materials to empower novice users of HPC resources to effectively solve scientific and technical problems of interest to them. Modeled after the Carpentries training programs, the workshop setting provides learners with a hands-on experience that elicits confidence in their ability to work with the system and sufficient vocabulary and review materials to make subsequent self-study more effective.
+
+The current project is the product of significant work over the past several years, incorporating valuable material from many contributors.
+
+The project's most recent focus has been on developing workshop materials that take learners from starting with the command-line shell, using the existing Software Carpentry's Shell lesson, followed by our lesson on introduction to HPC covering remote access and resource management, and then to a newly developed lesson on HPC workflow management, which walks learners through the specification and execution of a scaling study on an HPC system, emphasizing both the benefits and limitations of HPC systems for domain applications. This workshop program was recently run in full at the Lawrence Livermore National Laboratory.
+
+The project also plans to develop training resources for HPC developers, which will give workshop instructors the option of replacing the workflow lesson with a coding exercise in a parallel framework, such as MPI.
+
+In a major milestone, the current steering committee is leading the project through the formal incubation process towards becoming an official Carpentries lesson program alongside the existing Software, Data, and Library Carpentry programs.
+\end{abstract}
+
+
+% Keywords
+\keywords{Cyberinfrastructure, training, pedagogy, HPC, parallel computing, big data, non-degree training, hands-on}
+
+% Generate the title
+\maketitle
+
+% Input the body of the paper by providing the file name. For example,
+% if the file name is body.tex, then input{body}
+\input{Ext-abstract}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{deapsecure}
+
+\end{document}
